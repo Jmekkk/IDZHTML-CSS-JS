@@ -1,0 +1,33 @@
+body {
+    color: #b6b6b6;
+    background: #222222;
+}
+
+hr{
+    color: #ffffff;
+}
+
+th {
+    background-color: #43479b;
+}
+
+td{
+    background-color: #30313b;
+}
+
+.overlay {
+    background-color: #222222;
+}
+  
+.text {
+    color: #43479b;
+}
+
+.c {
+    border: 2px solid #5da4e2;
+    box-shadow: 15px 15px 0 0 #4f7fac; 
+}
+
+.c cite {
+    color: #57a8f0;
+}

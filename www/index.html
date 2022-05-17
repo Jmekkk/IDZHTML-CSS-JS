@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link id="modeStyles" rel="stylesheet" type="text/css" href="./css/StyleL.css"/>
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/script.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Моя личная страница</title>
+</head>
+<body>
+    <button onclick="changeStyleMode()" type="button" class="btn btn-dark" id="switch">Dark</button>
+    <a href="/model.html" class="btn btn-link">My favorite model</a>
+    <a target="_blank" href="/report.html" class="btn btn-link">Speed report</a>
+    <h2>IDZ</h2>
+    <div class="abtme">
+        Привет, меня зовут Женя. <br>
+        Мой адрес электронной почты: jmekk1233@gmail.com<br>
+        <br>
+    </div>
+    <div class="text-center w-100" >
+      <h5><strong>Таблица моих результатов за 3й семестр</strong></h5>
+      <table>
+          <thead class="head">
+              <tr>
+                  <th>Предметы</th>
+                  <th>Преподователь</th>
+                  <th>Балл</th>
+              </tr>
+          </thead>
+          <tbody class="body">
+              <tr>
+                  <td>Математична логіка, теорія алгоритмів та структури даних</td>
+                  <td>Татарінова О.А.</td>
+                  <td>61</td>
+              </tr>
+              <tr>
+                  <td>Об'єктно-орієнтоване програмування</td>
+                  <td>Водка О. О.</td>
+                  <td>60</td>
+              </tr>
+              <tr>
+                  <td>Спеціальні глави математики для моделювання та обробки даних</td>
+                  <td>Вязовиченко Ю. А.</td>
+                  <td>62</td>
+              </tr>
+              <tr>
+                  <td>Технології програмування</td>
+                  <td>Шаповалова М.</td>
+                  <td>75</td>
+              </tr>
+              <tr>
+                  <td>Іноземна мова</td>
+                  <td>Саламатіна А. В.</td>
+                  <td>80</td>
+              </tr>
+              <tr>
+                  <td>Операційні системи та засоби комп'ютерної безпеки</td>
+                  <td>Мєтєльов В. О.</td>
+                  <td>74</td>
+              </tr>
+              <tr>
+                  <td>Правознавство</td>
+                  <td>Кузьменко О. В.</td>
+                  <td>90</td>
+              </tr>
+              <tr>
+                  <td>Фізичне виховання</td>
+                  <td>Ширяєва С. В</td>
+                  <td>60</td>
+              </tr>
+          </tbody>
+          <tfoot class="foot">
+          </tfoot>
+      </table>
+    </div>
+    <div class="list">
+            Мои 5 любимых фильмов:
+            <ol style="list-style-type: disc;">
+                <li><a target="_blank" href="https://www.imdb.com/title/tt0317219" >Тачки</a></li>
+                <li><a target="_blank" href="https://www.imdb.com/title/tt0126029">Шрек</a></li>
+                <li><a target="_blank" href="https://www.imdb.com/title/tt0816692">Интерстеллар</a></li>
+                <li><a target="_blank" href="https://www.imdb.com/title/tt1675434">1+1</a></li>
+                <li><a target="_blank" href="https://www.imdb.com/title/tt0133093">Матрица</a></li>
+            </ol>
+    </div>
+    <marquee direction="right">Высокий, кучерявый, юморной</marquee>
+    <div class="gallery">
+        <div class="container">
+            <img id="first-img" src="./img/happy.jpg" alt="im happy here" class="image">
+            <div class="overlay">
+              <div class="text">Happy</div>
+            </div>
+          </div>
+          <div class="container">
+            <img id="second-img" src="./img/normal.jpg" alt="im normal here" class="image">
+            <div class="overlay">
+              <div class="text">Normal</div>
+            </div>
+          </div>
+          <div class="container">
+            <img id="third-img" src="./img/sad.jpg" alt="im sad here" class="image">
+            <div class="overlay">
+              <div class="text">Sad</div>
+            </div>
+          </div>
+    </div>
+    <blockquote class="c">
+        Робіть шо хотіть я своє зробив.
+        <cite>Мой друг Андрей Панченко</cite>
+    </blockquote>
+    <hr>
+    <div class="abtcity">
+            <h2>Краматорск</h2>
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <div class="m-4">
+                <p>     Сейчас это административный центр Донецкой области Украины с 11 октября 2014 года. Название города происходит от названия станции Краматорская. В. А. Никонов предполагал, что этот топоним возник от названия Краматорский завод, которое, в свою очередь, возводил к французскому слову crématoire «большая печь». По мнению Е. С. Отина, эта версия является несостоятельной, до появления завода уже существовал населённый пункт Краматоровка. По его версии, название города исходит от несохранившегося топонимического словосочетания крома Торова или крома Торская «граница по реке Тор». Слово крома означает «край, рубеж, граница», а Тор — это старое название реки Казённый Торец. В «Спутнике по Курско-Харьково-Севастопольской железной дороге», с. 172 указывается, что Краматоровка — ошибочное название Красноторки, названной, в свою очередь, по реке Красный Торец.<br></p>
+                <p>     Краматорск и принадлежащие ему посёлки расположены в долинах Казённого Торца и его притоков (Беленькая, Маячка, ручей Беленькая, Бычок), окружённых холмами. Холмы изрезаны оврагами и балками. Наименьшая высота над уровнем моря — 60 м — урез воды Торца в Ясногорке. На берегах Казённого Торца и его притока Белянки в двух местах образованы крутые склоны — «меловые горы». Границы города лежат на наибольших высотах (в метрах): 199,1 в посёлке Васильевская Пустошь; 177,3 на аэродроме; 169,5 Меловая гора; 167,6 Карачун-гора; 158,4 в посёлке Октябрьском. Человеческая деятельность произвела новые формы рельефа, наиболее значительные из которых — это карьер в Меловой горе и шлаковые отвалы при КМЗ и НКМЗ.<br></p>
+                <p>     Климат Краматорска умеренно континентальный с относительно холодной зимой и жарким сухим летом. Количество атмосферных осадков незначительное, по годам и по сезонам распределяется неравномерно. В год может выпадать от 250 до 650 мм, среднее значение — 420 мм. Больше половины осадков проходит летом в основном ливнями. Иногда суточный уровень осадков может превышать среднемесячный и достигает 120—125 мм. Среднегодовая относительная влажность воздуха 75 %, в летний полдень может уменьшаться до 30—35 %. Наиболее влажный воздух в декабре и январе — 90—98, а иногда и 100 %, поэтому зимой часты туман и гололедица. Пасмурность зимнего неба достигает 80 %, туманы держатся на большой площади долгое время даже при ветре 15 м/с, морось. Зимние ветры в основном восточные и северо-восточные, часты оттепели. Средняя температура самого холодного месяца января — −4,2 °C, самого тёплого июля — 21,2 °C. Средняя глубина промерзания грунта — 1,2 м, наибольшая — 1,5 м.<br></p>
+                <p>     На территории Краматорска 6 разведанных месторождений полезных ископаемых: Краматорское (мел и глина), Новокраматорское (тугоплавкая глина), Яснополянское (охровая глина), Шабельковское (формовочный песок), Россоховатское (строительный песок), Краматорское (керамическое сырьё).Ныне добывается семь видов минерального сырья: строительные, охровые, кирпично-черепичные и керамические глины (всего 107,2 тыс. т в 2008 г.), мел (576,2 тыс. т), формовочные и строительные пески.Благодаря открытым месторождениям при станции Краматорская в 1885 году был построен завод строительных материалов, положивший начало другим заводам и посёлку.С конца 1930-х годов до войны севернее Марьевки добывали уголь. Мощность пласта была 40 см. После войны вход в шахту обрушился и был затоплен. <br></p>
+            </div>
+    </div>
+    <hr>
+</body>
+</html>
